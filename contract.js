@@ -1,0 +1,1 @@
+document.getElementById('contract').innerText = 'Контракт работает (заглушка)';

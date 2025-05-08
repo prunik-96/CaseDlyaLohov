@@ -1,0 +1,1 @@
+fetch('data/cases.json').then(res => res.json()).then(data => { const cases = document.getElementById('cases'); data.forEach(cs => { const div = document.createElement('div'); div.innerHTML = `<a href='case.html?id=${cs.id}'>${cs.name}</a>`; cases.appendChild(div); }); });

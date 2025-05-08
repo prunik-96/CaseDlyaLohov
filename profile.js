@@ -1,0 +1,1 @@
+document.getElementById('profile').innerText = 'Ник: Player123, Баланс: 1000₽';
